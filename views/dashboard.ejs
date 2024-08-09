@@ -1,0 +1,12 @@
+<div class="row mt-5" >
+  <div class="col-md-6 m-auto">
+    <div class="card card-body"><h1 class="mt-4">Dashboard</h1>
+<p class="lead mt-3">
+  Welcome 
+  <% if (typeof user !== 'undefined' && user) { %>
+    <%= user.name %>
+  <% } %>
+</p><a href="/users/logout" class="btn btn-primary btn-block">Logout</a>
+</div>
+</div>
+</div>
